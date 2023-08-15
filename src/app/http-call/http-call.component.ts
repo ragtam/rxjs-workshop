@@ -7,8 +7,9 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
     standalone: true,
     changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class HttpCallComponent implements OnInit {
+export class HttpCallComponent {
     constructor() {}
 
-    ngOnInit(): void {}
+    // 1. make http call by button click
+    // 2. display return value in paragraph below the button
 }

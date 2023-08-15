@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HttpCallComponent } from './http-call/http-call.component';
 
 @NgModule({
-    declarations: [AppComponent, HttpCallComponent],
+    declarations: [AppComponent],
     imports: [BrowserModule, AppRoutingModule],
     providers: [],
     bootstrap: [AppComponent]
